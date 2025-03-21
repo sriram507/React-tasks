@@ -1,11 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css"; 
-import Home from "./homeComp"; // Import the Home component correctly
+import { createRoot } from "react-dom/client";
+import App from "./App";
+import "./index.css";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const container = document.getElementById("root");
+const root = createRoot(container);
+
 root.render(
   <React.StrictMode>
-    <Home />  {/* Rendering Home component that contains all other components */}
+    <App />
   </React.StrictMode>
 );
