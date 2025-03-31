@@ -1,18 +1,21 @@
-import React from "react";
+import React from 'react';
 
-function Navbar() {
+const Navbar = () => {
   return (
-    <nav style={{ backgroundColor: "lightblue", padding: "10px" }}>
-      <ul style={{ display: "flex", gap: "20px", listStyle: "none" }}>
-        <li>Home</li>
-        <li>Contact Us</li>
-        <li>Prices</li>
-        <li>Login</li>
-        <li>Signup</li>
-        <li>About Us</li>
-      </ul>
+    <nav className="navbar">
+      <div className="navbar-container">
+        <a href="#about" className="navbar-logo">My Portfolio</a>
+        <ul className="navbar-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </nav>
   );
-}
+};
 
 export default Navbar;
