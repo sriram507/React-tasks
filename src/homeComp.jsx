@@ -7,16 +7,17 @@ import Footer from "./footer/footerComp";
 function Home() {
   return (
     <div>
-      <HeaderComp />  {/* Navbar/Header at the top */}
-      <MainComp />  {/* Displaying Image in the center */}
-      <Maincss />
-      <Footer />      {/* Footer at the bottom */}
+      <HeaderComp />  Navbar/Header at the top
+      {/* <MainComp />  Displaying Image in the center */}
+      {/* <Maincss /> */}
+      <Footer />      Footer at the bottom
 
     </div>
   );
 }
 
 export default Home;
+
 
 
 
