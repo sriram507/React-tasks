@@ -6,7 +6,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Certifications from './components/Certifications';
 import Contact from './components/Contact';
-import Portfolio from './Portfolio/Porfolio';
+
 
 
 
@@ -20,7 +20,6 @@ function App() {
       <Projects />
       <Certifications />
       <Contact /> */}
-      <Portfolio />
     </div>
   );
 }
