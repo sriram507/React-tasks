@@ -54,7 +54,7 @@ input[type="file"] {
 
 
 /* Base Styles */
-:root {
+/* :root {
   --primary: #3498db;
   --secondary: #2c3e50;
   --light: #ecf0f1;
@@ -107,10 +107,10 @@ h2::after {
 a {
   text-decoration: none;
   color: var(--primary);
-}
+} */
 
 /* Navbar Styles */
-.navbar {
+/* .navbar {
   background-color: var(--secondary);
   color: white;
   padding: 15px 0;
@@ -150,10 +150,10 @@ a {
 
 .navbar-menu a:hover {
   color: var(--primary);
-}
+} */
 
 /* About Section */
-.about-container {
+/* .about-container {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -180,10 +180,10 @@ a {
 
 .personal-info p {
   margin-bottom: 8px;
-}
+} */
 
 /* Education Section */
-.education-container {
+/* .education-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
@@ -194,10 +194,10 @@ a {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* Skills Section */
-.skills-container {
+/* .skills-container {
   max-width: 800px;
   margin: 0 auto;
 }
@@ -230,10 +230,10 @@ a {
   display: inline-block;
   width: 40px;
   text-align: right;
-}
+} */
 
 /* Projects Section */
-.projects-container {
+/* .projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
@@ -271,10 +271,10 @@ a {
 
 .project-links a:hover {
   background-color: var(--secondary);
-}
+} */
 
 /* Certifications Section */
-.certifications-container {
+/* .certifications-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
@@ -285,10 +285,10 @@ a {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* Contact Section */
-.contact-container {
+/* .contact-container {
   display: flex;
   gap: 40px;
 }
@@ -348,10 +348,10 @@ a {
 
 .social-links a:hover {
   background-color: var(--secondary);
-}
+} */
 
 /* Responsive Design */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .about-container,
   .contact-container {
     flex-direction: column;
@@ -369,4 +369,7 @@ a {
     margin: 0 10px;
   }
 }
+ */
 
+
+ 

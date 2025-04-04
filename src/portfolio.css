@@ -1,200 +1,28 @@
-/* Base Styles */
-:root {
-    --primary: #2563eb;
-    --secondary: #1e40af;
-    --light: #f8fafc;
-    --dark: #1e293b;
-    --text: #334155;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Segoe UI', sans-serif;
-    line-height: 1.6;
-    color: var(--text);
-    background-color: var(--light);
-  }
-  
-  .app {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  /* Shared Section Styles */
-  .section {
-    padding: 60px 0;
-  }
-  
-  .section-title {
-    text-align: center;
-    margin-bottom: 40px;
-    color: var(--dark);
-    position: relative;
-  }
-  
-  .section-title::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60px;
-    height: 3px;
-    background-color: var(--primary);
-  }
-  
-  /* Navbar */
-  .navbar {
-    background-color: var(--dark);
-    color: white;
-    padding: 15px 0;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  
-  .navbar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .navbar-menu {
-    display: flex;
-    list-style: none;
-  }
-  
-  .navbar-menu li {
-    margin-left: 20px;
-  }
-  
-  .navbar-menu a {
-    color: white;
-    transition: all 0.3s ease;
-  }
-  
-  .navbar-menu a:hover {
-    color: #93c5fd;
-  }
-  
-  /* About Section */
-  .about-container {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-  }
-  
-  .profile-image {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 5px solid var(--primary);
-  }
-  
-  .about-content {
-    flex: 1;
-  }
-  
-  /* Education Section */
-  .education-item {
-    background: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
-  
-  /* Skills Section */
-  .skills-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 20px;
-  }
-  
-  .skill-card {
-    background: white;
-    padding: 15px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
-  
-  /* Projects Section */
-  .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-  }
-  
-  .project-card {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  }
-  
-  /* Certifications Section */
-  .certifications-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-  }
-  
-  .certification-card {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
-  
-  /* Contact Section */
-  .contact-form {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  .form-group input,
-  .form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-  }
-  
-  .submit-btn {
-    background-color: var(--primary);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .about-container {
-      flex-direction: column;
-    }
-    
-    .navbar-container {
-      flex-direction: column;
-    }
-    
-    .navbar-menu {
-      margin-top: 15px;
-    }
-  }
+.portfolio {
+  text-align: center;
+}
+
+.portfolio-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.portfolio-card {
+  border: 2px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.portfolio-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.portfolio-card a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: blue;
+}

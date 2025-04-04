@@ -17,7 +17,7 @@ class Home extends Component {
         {/* <HeaderComp /> */}
         {/* <Main /> */}
         {/* <Footer /> */}
-        <Menu name="john" city="hyd" gender="male" />
+        {/* <Menu name="john" city="hyd" gender="male" /> */}
       </div>
     );
   }
