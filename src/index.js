@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Home from './home/homeComp';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './portfolio.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +18,7 @@ root.render(
 );
 
 reportWebVitals();
+
 
 
 

@@ -1,12 +1,77 @@
 import React from "react";
+import { CardBody, CardFooter } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 
-function profileCard(props){
-    return(
-        <div>
-            {/* <h1>profileCard</h1> */}
-            <h1>Hello {props.name} from {props.city} - {props.role}</h1>
-        </div>
-    )
+
+// function ProfileCard(props) {
+//   return (
+//     <Card style={{ width: "18rem", height: "450px", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+//       <Card.Img variant="top" src={props.img} style={{ height: "180px", objectFit: "contain" }} />
+//       <Card.Body style={{ flex: "1 1 auto", overflowY: "auto" }}>
+//         <Card.Title>{props?.title}</Card.Title>
+//         <Card.Text style={{ fontSize: "0.85rem" }}>{props?.desc}</Card.Text>
+//       </Card.Body>
+//       <Card.Footer className="text-muted">
+//         <Button variant="primary">{props?.info}</Button>
+//       </Card.Footer>
+//     </Card>
+//   );
+// }
+
+
+
+
+
+function ProfileCard(props) {
+  return (
+    <Card
+      style={{
+        width: "18rem",
+        height: "450px",
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      {/* Fixed image container */}
+      <div style={{ height: "200px", overflow: "hidden" }}>
+        <Card.Img
+          variant="top"
+          src={props.data.image}
+          style={{
+            objectFit: "cover",
+            width: "100%",
+            height: "100%",
+          }}
+        />
+      </div>
+
+      {/* Scrollable body */}
+      <Card.Body style={{ flex: "1 1 auto", overflowY: "auto" }}>
+        <Card.Title
+          style={{
+            fontSize: "1rem",
+            fontWeight: "bold",
+          }}
+        >
+          {props.data.title}
+        </Card.Title>
+        <Card.Text style={{ fontSize: "0.9rem" }}>
+          {props.data.description}
+        </Card.Text>
+      </Card.Body>
+
+      <Card.Footer className="text-muted">
+        <Button variant="primary" size="sm">
+          {props.data.category}
+        </Button>
+      </Card.Footer>
+    </Card>
+  );
 }
-export default profileCard;
+
+export default ProfileCard;
+
+
+
 
