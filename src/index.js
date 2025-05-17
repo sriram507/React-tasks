@@ -14,8 +14,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Home />
-    {/* <Parent login="admin" /> */}
+    {/* <Home /> */}
+    <Parent login="admin" />
   </React.StrictMode>
 );
 
