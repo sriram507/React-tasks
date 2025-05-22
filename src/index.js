@@ -8,14 +8,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './portfolio.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Parent from './UiContent/Parentcomp/Parentcomp';
+import Counter from './UiContent/Counter/Counter';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+
+        <Counter />
     {/* <App /> */}
     {/* <Home /> */}
-    <Parent login="admin" />
+    {/* <Parent login="admin" /> */}
   </React.StrictMode>
 );
 
