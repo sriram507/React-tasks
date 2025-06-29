@@ -18,3 +18,6 @@ return props.login==="user"?<UserComp/>:<AdminComp/>
 
 }
 export default Parent;
+
+
+
