@@ -10,13 +10,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Parent from "./UiContent/Parentcomp/Parentcomp";
 import Counter from "./UiContent/Counter/Counter";
 import Toggle from "./UiContent/ToggleSwitch/ToggleSwitch";
-import SampleForm from "./UiContent/SampleForm/SampleForm";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
- <SampleForm />
-    {/* <Toggle /> */}
+    <Toggle />
     {/* <Counter /> */}
     {/* <App /> */}
     {/* <Home /> */}
@@ -25,5 +23,4 @@ root.render(
 );
 
 reportWebVitals();
-
 
