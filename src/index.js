@@ -6,15 +6,17 @@ import reportWebVitals from "./reportWebVitals";
 import Home from "./home/homeComp";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./portfolio.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Parent from "./UiContent/Parentcomp/Parentcomp";
 import Counter from "./UiContent/Counter/Counter";
 import Toggle from "./UiContent/ToggleSwitch/ToggleSwitch";
+import Sample from "./UiContent/SampleForm/SampleForm";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <React.StrictMode>
-    <Toggle />
+    <Sample />
+    {/* <Toggle /> */}
     {/* <Counter /> */}
     {/* <App /> */}
     {/* <Home /> */}
@@ -23,4 +25,3 @@ root.render(
 );
 
 reportWebVitals();
-
