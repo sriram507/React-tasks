@@ -10,12 +10,14 @@ import Parent from "./UiContent/Parentcomp/Parentcomp";
 import Counter from "./UiContent/Counter/Counter";
 import Toggle from "./UiContent/ToggleSwitch/ToggleSwitch";
 import Sample from "./UiContent/SampleForm/SampleForm";
+import Todo from "./UiContent/Todolist";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <Sample />
+   <Todo />
+    {/* <Sample /> */}
     {/* <Toggle /> */}
     {/* <Counter /> */}
     {/* <App /> */}
