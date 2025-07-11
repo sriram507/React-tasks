@@ -16,11 +16,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-   <Todo />
+   {/* <Todo /> */}
     {/* <Sample /> */}
     {/* <Toggle /> */}
     {/* <Counter /> */}
-    {/* <App /> */}
+    <App />
     {/* <Home /> */}
     {/* <Parent login="admin" /> */}
   </React.StrictMode>

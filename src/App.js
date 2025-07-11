@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Certifications from './components/Certifications';
 import Contact from './components/Contact';
+import Lifecycle from './UiContent/lifeCycle/index';
 
 
 
@@ -13,6 +14,7 @@ import Contact from './components/Contact';
 function App() {
   return (
     <div className="app">
+      <Lifecycle />
       {/* <Navbar />
       <About />
       <Education />
