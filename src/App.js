@@ -7,14 +7,14 @@ import Projects from './components/Projects';
 import Certifications from './components/Certifications';
 import Contact from './components/Contact';
 import Lifecycle from './UiContent/lifeCycle/index';
-
-
+import Updatingphase from './UiContent/Updatingphase/index';
 
 
 function App() {
   return (
     <div className="app">
-      <Lifecycle />
+      <Updatingphase />
+      {/* <Lifecycle /> */}
       {/* <Navbar />
       <About />
       <Education />

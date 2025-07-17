@@ -94,3 +94,7 @@ state:
 in react, state is an oject which stores the dynamic variables.
 they can be userinputs/api response/calculations.
 whenver a data changes in a state, then state can be update and then component can be re-render.
+
+
+
+
