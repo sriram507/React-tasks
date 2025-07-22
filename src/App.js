@@ -8,12 +8,14 @@ import Certifications from './components/Certifications';
 import Contact from './components/Contact';
 import Lifecycle from './UiContent/lifeCycle/index';
 import Updatingphase from './UiContent/Updatingphase/index';
+import FunLifeCycle from './UiContent/functionalComps/lifecycle/index';
 
 
 function App() {
   return (
     <div className="app">
-      <Updatingphase />
+      <FunLifeCycle />
+      {/* <Updatingphase /> */}
       {/* <Lifecycle /> */}
       {/* <Navbar />
       <About />
