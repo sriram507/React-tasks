@@ -9,12 +9,14 @@ import Contact from './components/Contact';
 import Lifecycle from './UiContent/lifeCycle/index';
 import Updatingphase from './UiContent/Updatingphase/index';
 import FunLifeCycle from './UiContent/functionalComps/lifecycle/index';
+import CounterFc from './UiContent/functionalComps/counterFc';
 
 
 function App() {
   return (
     <div className="app">
-      <FunLifeCycle />
+      <CounterFc />
+      {/* <FunLifeCycle /> */}
       {/* <Updatingphase /> */}
       {/* <Lifecycle /> */}
       {/* <Navbar />
