@@ -10,12 +10,16 @@ import Lifecycle from './UiContent/lifeCycle/index';
 import Updatingphase from './UiContent/Updatingphase/index';
 import FunLifeCycle from './UiContent/functionalComps/lifecycle/index';
 import CounterFc from './UiContent/functionalComps/counterFc';
+import Calculator from './UiContent/functionalComps/calculator/index';
+import FormComp from './UiContent/functionalComps/formEvents/index';
 
 
 function App() {
   return (
     <div className="app">
-      <CounterFc />
+    <FormComp />
+      {/* <Calculator /> */}
+      {/* <CounterFc /> */}
       {/* <FunLifeCycle /> */}
       {/* <Updatingphase /> */}
       {/* <Lifecycle /> */}
