@@ -13,11 +13,14 @@ import CounterFc from './UiContent/functionalComps/counterFc';
 import Calculator from './UiContent/functionalComps/calculator/index';
 import FormComp from './UiContent/functionalComps/formEvents/index';
 import PureComponent  from './UiContent/functionalComps/pureComponents/counter';
+import LoginForm from './UiContent/functionalComps/loginComp';
 
 function App() {
   return (
     <div className="app">
-      <PureComponent />
+
+    <LoginForm />
+      {/* <PureComponent /> */}
     {/* <FormComp /> */}
       {/* <Calculator /> */}
       {/* <CounterFc /> */}
@@ -31,6 +34,7 @@ function App() {
       <Projects />
       <Certifications />
       <Contact /> */}
+
     </div>
   );
 }
