@@ -12,12 +12,13 @@ import FunLifeCycle from './UiContent/functionalComps/lifecycle/index';
 import CounterFc from './UiContent/functionalComps/counterFc';
 import Calculator from './UiContent/functionalComps/calculator/index';
 import FormComp from './UiContent/functionalComps/formEvents/index';
-
+import PureComponent  from './UiContent/functionalComps/pureComponents/counter';
 
 function App() {
   return (
     <div className="app">
-    <FormComp />
+      <PureComponent />
+    {/* <FormComp /> */}
       {/* <Calculator /> */}
       {/* <CounterFc /> */}
       {/* <FunLifeCycle /> */}
