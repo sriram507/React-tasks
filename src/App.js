@@ -14,12 +14,13 @@ import Calculator from './UiContent/functionalComps/calculator/index';
 import FormComp from './UiContent/functionalComps/formEvents/index';
 import PureComponent  from './UiContent/functionalComps/pureComponents/counter';
 import LoginForm from './UiContent/functionalComps/loginComp';
+import UseeffectComp from './UiContent/functionalComps/useEffect';
 
 function App() {
   return (
     <div className="app">
-
-    <LoginForm />
+    <UseeffectComp  />
+    {/* <LoginForm /> */}
       {/* <PureComponent /> */}
     {/* <FormComp /> */}
       {/* <Calculator /> */}
