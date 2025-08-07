@@ -133,8 +133,3 @@ export default function ProductList() {
 }
 
 
-
-
-
-
-
