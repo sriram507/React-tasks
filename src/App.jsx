@@ -23,7 +23,8 @@ import ContactUs from "./UiContent/functionalComps/Routingcomps/contact";
 import LoginForm from "./UiContent/functionalComps/loginComp";
 import Welcome from "./UiContent/functionalComps/Routingcomps/welcome";
 import './App.css';
-
+import MovieList from "./UiContent/dynamicrouting/movieList";
+import MovieDetails from "./UiContent/dynamicrouting/movieDetails";
 
 function App() {
   return (
@@ -64,7 +65,7 @@ function App() {
 
 </Router> */}
 
-      <Router>
+      {/* <Router>
         <div
           style={{
             backgroundColor: "orange",
@@ -92,8 +93,31 @@ function App() {
     <Route path="/Welcome" element={<Welcome/>}></Route>
 
      </Routes>
+      </Router> */}
+
+    <Router>
+     <div style={{display:"flex",justifyContent:"space-around"}}>
+      <Link to ="/home" >Home</Link>
+      <Link to ="/movies" >Movies</Link>
+      </div>
+
+
+  <Routes>
+
+  <Route path="/home" element={<Home/>}></Route>
+  <Route path="/movies" element={<MovieList/>}></Route>
+  <Route path="/movies/:id" element={<MovieDetails/>}></Route>
+
+  </Routes>
+ 
+
       </Router>
+
+    
+
     </div>
+  
+
   );
 }
 
