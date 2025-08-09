@@ -76,8 +76,11 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import { useNavigate } from "react-router-dom";
 
 function ProfileCard(props) {
+  const navigate = useNavigate();
+
   return (
     <div>
       <Card style={{ width: "18rem" }}>
@@ -92,6 +95,7 @@ function ProfileCard(props) {
         </Card.Body>
         <Card.Footer className="text-muted">
           <Button variant="primary">{props.info}</Button>
+          <Button variant="secondary" onClick={() => navigate("/home")}>Back</Button>
         </Card.Footer>
       </Card>
     </div>

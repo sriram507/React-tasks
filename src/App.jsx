@@ -103,7 +103,7 @@ function App() {
 
 
   <Routes>
-
+  
   <Route path="/home" element={<Home/>}></Route>
   <Route path="/movies" element={<MovieList/>}></Route>
   <Route path="/movies/:id" element={<MovieDetails/>}></Route>
