@@ -25,6 +25,7 @@ import Welcome from "./UiContent/functionalComps/Routingcomps/welcome";
 import './App.css';
 import MovieList from "./UiContent/dynamicrouting/movieList";
 import MovieDetails from "./UiContent/dynamicrouting/movieDetails";
+import TestUnmount from "./UiContent/hooks/TestUnmount";
 
 function App() {
   return (
@@ -95,7 +96,7 @@ function App() {
      </Routes>
       </Router> */}
 
-    <Router>
+    {/* <Router>
      <div style={{display:"flex",justifyContent:"space-around"}}>
       <Link to ="/home" >Home</Link>
       <Link to ="/movies" >Movies</Link>
@@ -111,10 +112,10 @@ function App() {
   </Routes>
  
 
-      </Router>
+      </Router> */}
 
     
-
+    <TestUnmount />
     </div>
   
 
