@@ -12,6 +12,7 @@ import Toggle from "./UiContent/ToggleSwitch/ToggleSwitch";
 import Sample from "./UiContent/SampleForm/SampleForm";
 import Todo from "./UiContent/Todolist";
 
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -23,6 +24,7 @@ root.render(
     <App />
     {/* <Home /> */}
     {/* <Parent login="admin" /> */}
+    
   </React.StrictMode>
 );
 

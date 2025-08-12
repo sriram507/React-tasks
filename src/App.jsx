@@ -25,7 +25,9 @@ import Welcome from "./UiContent/functionalComps/Routingcomps/welcome";
 import './App.css';
 import MovieList from "./UiContent/dynamicrouting/movieList";
 import MovieDetails from "./UiContent/dynamicrouting/movieDetails";
-import TestUnmount from "./UiContent/hooks/TestUnmount";
+import TestUnmount from "./UiContent/hooks/component unmount/TestUnmount";
+import UseMemoExample from "./UiContent/hooks/UseMemoExample";
+import UseCallbackExample from "./UiContent/hooks/UseCallbackExample";
 
 function App() {
   return (
@@ -115,7 +117,12 @@ function App() {
       </Router> */}
 
     
-    <TestUnmount />
+    {/* <TestUnmount /> */}
+
+
+{/* <UseMemoExample /> */}
+
+<UseCallbackExample />
     </div>
   
 
