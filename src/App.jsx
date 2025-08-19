@@ -28,6 +28,7 @@ import MovieDetails from "./UiContent/dynamicrouting/movieDetails";
 import TestUnmount from "./UiContent/hooks/component unmount/TestUnmount";
 import UseMemoExample from "./UiContent/hooks/UseMemoExample";
 import UseCallbackExample from "./UiContent/hooks/UseCallbackExample";
+import ParentComp from "./UiContent/contexthook/parentComp";
 
 function App() {
   return (
@@ -122,7 +123,11 @@ function App() {
 
 {/* <UseMemoExample /> */}
 
-<UseCallbackExample />
+{/* <UseCallbackExample /> */}
+
+<ParentComp />
+
+
     </div>
   
 
